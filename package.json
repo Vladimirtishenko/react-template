@@ -44,6 +44,6 @@
   },
   "scripts": {
     "dev": "webpack build && webpack serve --open",
-    "build": "rm -rf ./dist && webpack build --env='production' --progress --no-devtool --no-stats --no-watch"
+    "build": "rm -rf ./dist && webpack build --config ./webpack.config.prod.js --env='production' --progress --no-devtool --no-stats --no-watch"
   }
 }
